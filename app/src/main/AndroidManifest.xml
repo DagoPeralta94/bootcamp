@@ -11,6 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firstapp">
         <activity
+            android:name=".ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/Theme.Firstapp.NoActionBar" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false"
+            android:label="@string/title_activity_main6"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.Firstapp.NoActionBar"
+            tools:targetApi="24" />
+        <activity
             android:name=".ItemDetailHostActivity"
             android:exported="false"
             android:label="@string/title_activity_item_detail_host"

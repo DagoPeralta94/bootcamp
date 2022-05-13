@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         binding.goToActivity5.setOnClickListener { goingToActivity5() }
         binding.goToActivity6.setOnClickListener { goingToActivity6() }
         binding.goToActivity7.setOnClickListener { goingToActivity7() }
+        binding.goToActivity8.setOnClickListener { goingToActivity8() }
+        binding.goToActivity9.setOnClickListener { goingToActivity9() }
 
     }
     private fun goingToActivity1(){
@@ -62,6 +64,18 @@ class MainActivity : AppCompatActivity() {
     }
     private fun goingToActivity7(){
         val intent = Intent(this, ItemDetailHostActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+    private fun goingToActivity8(){
+        val intent = Intent(this, MainActivity6::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+    private fun goingToActivity9(){
+        val intent = Intent(this, ScrollingActivity::class.java).apply {
 
         }
         startActivity(intent)
