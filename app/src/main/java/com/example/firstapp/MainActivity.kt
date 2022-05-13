@@ -14,3 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
     }
 }
+
+class goToActivity1() {
+
+}
+
