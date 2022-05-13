@@ -43,5 +43,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Activity 7" />
+    <Button
+        android:id="@+id/goToActivity8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 8" />
+    <Button
+        android:id="@+id/goToActivity9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 9" />
+    <Button
+        android:id="@+id/goToActivity10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 10" />
+    <Button
+        android:id="@+id/goToActivity11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 11" />
 
 </LinearLayout>
