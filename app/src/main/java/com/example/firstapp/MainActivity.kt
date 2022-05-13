@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding.goToActivity8.setOnClickListener { goingToActivity8() }
         binding.goToActivity9.setOnClickListener { goingToActivity9() }
         binding.goToActivity10.setOnClickListener { goingToActivity10() }
+        binding.goToActivity11.setOnClickListener { goingToActivity11() }
 
     }
     private fun goingToActivity1(){
@@ -83,6 +84,12 @@ class MainActivity : AppCompatActivity() {
     }
     private fun goingToActivity10(){
         val intent = Intent(this, SettingsActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+    private fun goingToActivity11(){
+        val intent = Intent(this, MainActivity7::class.java).apply {
 
         }
         startActivity(intent)
