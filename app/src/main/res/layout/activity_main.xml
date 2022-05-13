@@ -8,28 +8,40 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        android:textAlignment="center" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textAlignment="center" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/goToActivity1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign in" />
+        android:text="Activity 1" />
+    <Button
+        android:id="@+id/goToActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 2" />
+    <Button
+        android:id="@+id/goToActivity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 3" />
+    <Button
+        android:id="@+id/goToActivity4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 4" />
+    <Button
+        android:id="@+id/goToActivity5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 5" />
+    <Button
+        android:id="@+id/goToActivity6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 6" />
+    <Button
+        android:id="@+id/goToActivity7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity 7" />
 
 </LinearLayout>
