@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         binding.goToActivity7.setOnClickListener { goingToActivity7() }
         binding.goToActivity8.setOnClickListener { goingToActivity8() }
         binding.goToActivity9.setOnClickListener { goingToActivity9() }
+        binding.goToActivity10.setOnClickListener { goingToActivity10() }
 
     }
     private fun goingToActivity1(){
@@ -76,6 +77,12 @@ class MainActivity : AppCompatActivity() {
     }
     private fun goingToActivity9(){
         val intent = Intent(this, ScrollingActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+    private fun goingToActivity10(){
+        val intent = Intent(this, SettingsActivity::class.java).apply {
 
         }
         startActivity(intent)
