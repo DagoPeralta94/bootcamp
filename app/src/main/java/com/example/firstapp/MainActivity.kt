@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.firstapp.databinding.ActivityMainBinding
+import com.example.firstapp.ui.login.LoginActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         binding.goToActivity2.setOnClickListener { goingToActivity2() }
         binding.goToActivity3.setOnClickListener { goingToActivity3() }
         binding.goToActivity4.setOnClickListener { goingToActivity4() }
+        binding.goToActivity5.setOnClickListener { goingToActivity5() }
 
     }
     private fun goingToActivity1(){
@@ -40,6 +42,12 @@ class MainActivity : AppCompatActivity() {
     }
     private fun goingToActivity4(){
         val intent = Intent(this, FullscreenActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+    private fun goingToActivity5(){
+        val intent = Intent(this, LoginActivity::class.java).apply {
 
         }
         startActivity(intent)
