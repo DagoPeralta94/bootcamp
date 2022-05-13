@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
     private fun goingToActivity7(){
-        val intent = Intent(this, ItemDetailFragment::class.java).apply {
+        val intent = Intent(this, ItemDetailHostActivity::class.java).apply {
 
         }
         startActivity(intent)
